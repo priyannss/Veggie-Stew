@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.header__brand-logo {
+    font-size: var(--size-3xl);
+    color: var(--clr-maroon);
+    font-family: "Black And White Picture", system-ui;
+    user-select: none;
+    margin-left: 0.5rem;
+}
+
+.header__menu {
+    display: none;
+}
+
+.header__bars {
+    color: var(--clr-dark);
+    width: var(--size-2xl);
+    height: var(--size-2xl);
+    display: block;
+}
+
+.header__img-wrapper {
+    width: 10rem;
+}
+
+
+/* xs */
+/* @media screen and (min-width: 475px) {
+} */
+
+/* sm */
+/* @media screen and (min-width: 640px) {
+} */
+
+/* md */
+@media screen and (min-width: 768px) {
+    .header__brand-logo {
+        font-size: var(--size-4xl);
+    }
+
+    .header__img-wrapper {
+        width: 17rem;
+    }
+
+    .header__menu {
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        list-style: none;
+        padding: 0;
+        text-transform: uppercase;
+    }
+    
+    .header__link {
+        text-decoration: none;
+        font-size: var(--size-xs);
+        font-weight: 600;
+        color: var(--clr-dark);
+        cursor: pointer;
+
+        transition: color 0.3s;
+    }
+
+    .header__search {
+        display: block;
+        color: var(--clr-dark);
+        width: var(--size-lg);
+        height: var(--size-lg);
+        cursor: pointer;
+    }
+
+    .header__bars {
+        display: none;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1024px) {
+    .header__link {
+        font-size: var(--size-base);
+    }
+
+    .header__search {
+        width: var(--size-2xl);
+        height: var(--size-2xl);
+    }
+}
+
+/* xl */
+/* @media screen and (min-width: 1280px) {
+} */
+
+/* 2xl */
+/* @media screen and (min-width: 1536px) {
+} */

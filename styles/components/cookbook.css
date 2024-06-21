@@ -1,0 +1,110 @@
+.cookbook {
+    background-color: #414141e9;
+    color: var(--clr-light);
+    margin-top: 2rem;
+}
+
+.cookbook__wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cookbook__img {
+    width: 20rem;
+}
+
+.cookbook__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+.cookbook__form-title {
+    font-family: "Calligraffitti", cursive;
+    font-size: var(--size-3xl);
+    color: var(--clr-yellow);
+    font-weight: 600;
+}
+
+.cookbook__form-subtitle {
+    font-size: var(--size-xl);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
+}
+
+.cookbook__form-description {
+    max-width: 40ch;
+    font-weight: 400;
+    font-size: var(--size-base);
+}
+
+.cookbook__form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1em;
+}
+
+.cookbook__form-input input {
+    padding: 0.6rem;
+    outline: none;
+    width: 60vw;
+}
+
+.cookbook__form-btn {
+    background-color: var(--clr-yellow);
+    padding: 0.7rem 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 8rem;
+    transition: all 0.6s ease-in-out;
+}
+
+.cookbook__form-btn:hover {
+    opacity: 0.6;
+}
+
+
+@media screen and (min-width: 768px) {
+    .cookbook__img {
+        width: 25rem;
+    }
+
+    .cookbook__form-title {
+        font-size: var(--size-4xl);
+    }
+
+    .cookbook__form-description {
+        font-size: var(--size-lg);
+    }
+
+    .cookbook__form-input {
+        flex-direction: row;
+        gap: 0.2rem;
+    }
+
+    .cookbook__form-input input {
+        padding: 0.6rem;
+        width: 12rem;
+    }
+
+    .cookbook__form-btn {
+        width: 4rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .cookbook__wrapper {
+        flex-direction: row;
+    }
+}

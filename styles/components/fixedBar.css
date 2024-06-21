@@ -1,0 +1,42 @@
+.fixedBar {
+    position: fixed;
+    bottom: 70px;
+    right: 7px;
+    z-index: 99;
+}
+
+.fixedBar li {
+    border-radius: 99px;
+    width: 42px;
+    height: 42px;
+    box-shadow: 4px 2px 10px grey;
+
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 6px;
+}
+
+.fixedBar li:hover {
+    opacity: 60%;
+}
+
+.fixedBar li svg {
+    padding: 10px;
+}
+
+.heart {
+    background-color: var(--clr-neutral);
+    color: var(--clr-maroon);
+}
+
+.search {
+    background-color: var(--clr-maroon);
+    color: var(--clr-neutral);
+}
+
+@media screen and (max-width: 450px) {
+    .fixedBar{
+        display: none;
+    }
+}

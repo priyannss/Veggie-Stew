@@ -1,0 +1,142 @@
+.contact {
+    background-color: var(--clr-maroon);
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact__msg {
+    text-transform: uppercase;
+    color: var(--clr-light);
+    font-size: var(--size-lg);
+    font-family: 'Arvo', serif;
+    letter-spacing: 0.1em;
+}
+
+.contact__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact__svg-wrapper {
+    background-color: var(--clr-light);
+    border-radius: 99px;
+    padding: 0.2em;
+    cursor: pointer;
+}
+
+.contact__svg-wrapper:hover {
+    opacity: 0.3;
+}
+
+.contact__svg-wrapper svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.contact__form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact__form-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.contact__form-heading-drama {
+    font-family: "Calligraffitti", cursive;
+    font-size: var(--size-3xl);
+    font-weight: 600;
+    color: var(--clr-light);
+}
+
+.contact__form-heading-bold {
+    font-family: 'Arvo', serif;
+    font-weight: 600;
+    color: var(--clr-light);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.contact__form>input {
+    padding: 0.5rem;
+    width: 16rem;
+    outline: none;
+}
+
+.contact__form-btn {
+    background-color: var(--clr-yellow);
+    color: var(--clr-light);
+    padding: 0.5rem;
+    font-size: var(--size-lg);
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 8rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact__form-btn:hover {
+    opacity: 0.6;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .contact__logo {
+        gap: 1rem;
+    }
+
+    .contact__svg-wrapper svg {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .contact__form {
+        flex-direction: row;
+        gap: 0.2rem;
+    }
+
+    .contact__form-heading-drama {
+        font-size: var(--size-4xl);
+    }
+
+    .contact__form>input {
+        padding: 0.8rem;
+    }
+
+    .contact__form-btn {
+        width: var(--size-6xl);
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact__wrapper {
+        flex-direction: row;
+        gap: 10rem;
+    }
+}

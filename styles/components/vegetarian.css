@@ -1,0 +1,105 @@
+.vegetarian {
+    background-color: #f7f7f7;
+    margin-top: 2rem;
+}
+
+.vegetarian__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.vegetarian__options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.vegetarian__menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.vegetarian__menu-1, 
+.vegetarian__menu-2, 
+.vegetarian__menu-3 {
+    background-color: #e6e6e6;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: var(--size-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    position: relative;
+    top: 0;
+}
+
+.vegetarian__menu-1 {
+    background-color: var(--clr-maroon);
+    color: var(--clr-light);
+}
+
+.vegetarian__menu-2:hover, 
+.vegetarian__menu-3:hover {
+    background-color: var(--clr-maroon);
+    color: var(--clr-light);
+}
+
+.vegetarian__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.2rem;
+    cursor: pointer;
+}
+
+.vegetarian__box:hover {
+    opacity: 0.6;
+}
+
+.vegetarian__box-btn {
+    background-color: var(--clr-yellow);
+    position: relative;
+    top: -1rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    font-family: 'Arvo', serif;
+    text-transform: uppercase;
+    color: var(--clr-light);
+    letter-spacing: 0.1rem;
+    font-size: var(--size-sm);
+}
+
+.vegetarian__box-heading {
+    font-family: 'Arvo', serif;
+    max-width: 20ch;
+    font-weight: 600;
+    font-size: var(--size-xl);
+}
+
+
+@media screen and (min-width: 768px) {
+    .vegetarian {
+        margin-top: 4rem;
+    }
+
+    .vegetarian__options {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .vegetarian__menu-1, 
+    .vegetarian__menu-2, 
+    .vegetarian__menu-3 {
+        font-size: var(--size-base);
+        padding: 0.5rem 1.5rem;
+        top: -1.3rem;
+    }
+
+    .vegetarian__box-heading {
+        font-size: var(--size-2xl);
+    }
+}
