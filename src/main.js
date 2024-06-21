@@ -17,5 +17,5 @@ import '../styles/components/footer.css';
 import '../styles/utils.css';
 
 
-import mobileNav from '../../../portfolio/src/utils/mobile-nav';
+import mobileNav from '../src/utils/mobileNav';
 mobileNav();
