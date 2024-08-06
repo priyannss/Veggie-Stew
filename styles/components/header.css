@@ -22,8 +22,8 @@
 
 .header__bars {
     color: var(--clr-dark);
-    width: var(--size-2xl);
-    height: var(--size-2xl);
+    width: var(--size-4xl);
+    height: var(--size-4xl);
     display: block;
 }
 

@@ -19,7 +19,7 @@
 .footer__title-2 {
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
+    font-family: serif;
     font-weight: 900;
     font-size: var(--size-sm);
 }
@@ -31,7 +31,7 @@
 .footer__list {
     margin-top: 0.5rem;
     font-size: var(--size-sm);
-    font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
+    font-family: serif;
     color: #5a5959;
     cursor: pointer;
 }
@@ -71,7 +71,7 @@
 .footer__form-bold {
     text-transform: uppercase;
     font-weight: 600;
-    font-family: 'Arvo', Georgia, 'Times New Roman', Times, serif;
+    font-family: serif;
     letter-spacing: 0.1em;
 }
 

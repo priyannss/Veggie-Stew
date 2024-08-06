@@ -81,6 +81,10 @@
     padding-bottom: 2rem;
 }
 
+.hero__search-input::placeholder {
+    color: var(--clr-dark);
+}
+
 .hero__search-input {
     font-size: var(--size-base);
     padding: 0.6em 0.5em;

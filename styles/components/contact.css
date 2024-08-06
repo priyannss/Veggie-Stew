@@ -17,7 +17,7 @@
     text-transform: uppercase;
     color: var(--clr-light);
     font-size: var(--size-lg);
-    font-family: 'Arvo', serif;
+    font-family: serif;
     letter-spacing: 0.1em;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .contact__form-heading-bold {
-    font-family: 'Arvo', serif;
+    font-family: serif;
     font-weight: 600;
     color: var(--clr-light);
     text-transform: uppercase;

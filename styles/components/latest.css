@@ -16,7 +16,7 @@
 }
 
 .latest__greatest-heading {
-    font-family: 'Arvo', serif;
+    font-family: serif;
     color: var(--clr-maroon);
     text-transform: uppercase;
     font-weight: 600;
@@ -51,7 +51,7 @@
     letter-spacing: 0.1rem;
     text-transform: uppercase;
     font-size: var(--size-sm);
-    font-family: 'Arvo', serif;
+    font-family: serif;
     font-weight: 600;
 }
 
@@ -123,7 +123,7 @@
 }
 
 .latest__collection span {
-    font-family: 'Arvo', serif;
+    font-family: serif;
     font-weight: 400;
     text-transform: capitalize;
 }
@@ -133,11 +133,15 @@
 }
 
 .latest__collection-heading {
-    font-family: 'Arvo', serif;
+    font-family: serif;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.1em;
     color: var(--clr-maroon);
+}
+
+.latest__freezer-img {
+    display: none;
 }
 
 
@@ -166,5 +170,9 @@
 
     .latest__greatest-box-same3 {
         gap: 1.5rem;
+    }
+
+    .latest__freezer-img {
+        display: block;
     }
 }

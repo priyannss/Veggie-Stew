@@ -67,7 +67,7 @@
     top: -1rem;
     padding: 0.5rem 1rem;
     font-weight: 600;
-    font-family: 'Arvo', serif;
+    font-family: serif;
     text-transform: uppercase;
     color: var(--clr-light);
     letter-spacing: 0.1rem;
@@ -75,7 +75,7 @@
 }
 
 .vegetarian__box-heading {
-    font-family: 'Arvo', serif;
+    font-family: serif;
     max-width: 20ch;
     font-weight: 600;
     font-size: var(--size-xl);
